@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Control de LEDs MQTT</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; padding: 50px; }
+        h1 { color: #4CAF50; }
+        .button { font-size: 20px; padding: 10px 20px; margin: 10px; border: none; background-color: #4CAF50; color: white; cursor: pointer; }
+        .button:hover { background-color: #45a049; }
+    </style>
+</head>
+<body>
+    <h1>Control de LEDs MQTT</h1>
+    <button class="button" id="led1-toggle">Toggle LED1</button><br>
+    <button class="button" id="led2-toggle">Toggle LED2</button><br>
+    <button class="button" id="led3-toggle">Toggle LED3</button><br>
+    <button class="button" id="led4-toggle">Toggle LED4</button>
+
+    <script src="https://cdn.jsdelivr.net/npm/mqtt/dist/mqtt.min.js"></script>
+    <script src="mqtt.js"></script>
+</body>
+</html>
